@@ -1,0 +1,63 @@
+.dashboard-container {
+    max-width: 60%;
+    margin: 40px auto;
+}
+
+.dashboard-card {
+    margin: auto;
+    max-width: 60%;
+}
+.dashboard-card h3 {
+    padding: 1.3rem;
+    font-weight: bold;
+}
+.dashboard-card form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.dashboard-card form label{
+    font-size: .8rem;
+}
+.dashboard-card form input,textarea, button {
+    padding: .4rem ;
+    border-radius:5px ;
+    border: 1px solid rgb(206, 203, 203);
+}
+.dashboard-card form button {
+    margin-top: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.dashboard-card button:hover{
+    border: 1px solid black;
+}
+textarea{
+    resize: none;
+}
+/* .dashboard-result {
+    
+} */
+.dashboard-result-content{
+    margin-top: 30px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.result-content-data .tanggal-result{
+    font-size: .8rem;
+    opacity: 60%;
+    margin-top: 10px;
+}
+.result-content-btn button{
+    margin-left: 5px;
+}
+
+@media (max-width:768px){
+    .dashboard-card {
+        max-width: 100%;
+    }
+}
